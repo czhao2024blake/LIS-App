@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		629A19D22B6A96CE002B7CAA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629A19D12B6A96CE002B7CAA /* HomeScreen.swift */; };
 		8F11BC6E2A61AC4600DD1801 /* Chat_BotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F11BC6D2A61AC4600DD1801 /* Chat_BotApp.swift */; };
 		8F11BC702A61AC4600DD1801 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F11BC6F2A61AC4600DD1801 /* ContentView.swift */; };
 		8F11BC722A61AC4700DD1801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F11BC712A61AC4700DD1801 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		629A19D12B6A96CE002B7CAA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		8F11BC6A2A61AC4600DD1801 /* Chat Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F11BC6D2A61AC4600DD1801 /* Chat_BotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_BotApp.swift; sourceTree = "<group>"; };
 		8F11BC6F2A61AC4600DD1801 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				8F11BC6D2A61AC4600DD1801 /* Chat_BotApp.swift */,
+				629A19D12B6A96CE002B7CAA /* HomeScreen.swift */,
 				8F11BC6F2A61AC4600DD1801 /* ContentView.swift */,
 				F96F7D5A2B640216009A89AF /* ViewModel.swift */,
 				F96F7D5C2B64024A009A89AF /* Model.swift */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F11BC702A61AC4600DD1801 /* ContentView.swift in Sources */,
+				629A19D22B6A96CE002B7CAA /* HomeScreen.swift in Sources */,
 				F96F7D5B2B640216009A89AF /* ViewModel.swift in Sources */,
 				8F11BC6E2A61AC4600DD1801 /* Chat_BotApp.swift in Sources */,
 				F96F7D5D2B64024A009A89AF /* Model.swift in Sources */,
