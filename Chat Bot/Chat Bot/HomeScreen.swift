@@ -13,7 +13,7 @@ struct HomeScreen: View {
             ZStack{
                 Rectangle()
                     .frame(width: 550, height: 180, alignment: .top)
-                  //  .foregroundColor(Color("MainColor"))
+                    .foregroundColor(Color("MainColor"))
                 HStack{
                     Text("Welcome Student!!")
                         .font(.custom("BanglaSangamMN", size:32))
@@ -27,13 +27,21 @@ struct HomeScreen: View {
             }
                 .position(x:200,y:-40)
             
-            Text("🇺🇸")
-                .font(.system(size:200))
+            Image("LISlogowithname")
+                .resizable()
+                .frame(width: 350, height: 300)
+                .scaledToFit()
+                .offset(x:0,y:-95)
+            
+            
             RoundedRectangle(cornerRadius: 20, style: .continuous)
-                .frame(width: 300)
+               // .resizable()
+                .frame(width: 300, height: 100 )
                 .foregroundColor(.blue)
+            Spacer()
             RoundedRectangle(cornerRadius: 20, style: .continuous)
-                .frame(width: 300)
+             //   .resizable()
+                .frame(width: 300, height: 100)
                 .foregroundColor(.blue)
             Spacer()
           //  List{
